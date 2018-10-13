@@ -1,58 +1,63 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-    <title>Contact</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+<title>Contact</title>
 </head>
 
 <body>
-    <div id="mainHeader2">
-        <div id="header2">
-            <span id="name2">Heidi JvR</span>
-                <div id="menu">
-                    <nav>
-                        <a href="index.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
-                    </nav>
-                  
-                   
-            
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+                <a class="navbar-brand" href="#">Heidi JvR</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <!-- here's spacing help: https://getbootstrap.com/docs/4.1/utilities/spacing/ -->
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
                 </div>
-       </div>
-            
-    </div>
-<div id="contactMain">
-    <h2>Contact</h2>
-
-    <form action="/action_page.php">
-
-        <h4>Name</h4>        
-            <input type="text" placeholder="Full name"/>
-                       
-        <h4>Email</h4>
-            <input type="text" placeholder="name@mail.com">
-        
-            <h4>Message</h4>                                      
-                <textarea rows="11" cols="119>">
-
-            </textarea>
-
-    </form>   
-                    
-                      
-    <input class="button" input type="submit">   
-
-            
-</div>
-
-<div id="footer">            
-<p>Copyright@</p>   
-        
+              </nav>                   
     
+    <div id="contactMain">
+        <h2>Contact</h2>
 
-</div>
-         
+        <form action="/action_page.php">
+
+            <h4>Name</h4>        
+                <input type="text" placeholder="Full name"/>
+                        
+            <h4>Email</h4>
+                <input type="text" placeholder="name@mail.com">
+            
+                <h4>Message</h4>                                      
+                    <textarea rows="11" cols="119>">
+
+                </textarea>
+        </form>                      
+        <input class="button" input type="submit">              
+    </div>
+  
+    <footer class="page-footer font-small bg-secondary">  
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>         
 </body>
 
 </html>
